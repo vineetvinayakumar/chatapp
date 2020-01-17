@@ -173,11 +173,23 @@ button:disabled {
     font-weight: 500;
     font-size: 18px;
     margin-bottom: 4px;
-    padding: 12px 24px 0 24px;
+    padding: 25px 24px 2px 24px;
 }
 
 .users {
     list-style-type: none;
     font-weight: 300;
-    padding: 12px 24px 0 24px;
+    padding: 5px 24px 0 24px;
+}
+
+.users > li {
+    margin-bottom: .5em;
+}
+
+.online {
+    height: 12px;
+    width: 12px;
+    background-color: #44A200;
+    border-radius: 50%;
+    display: inline-block;
 }
